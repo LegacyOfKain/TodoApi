@@ -6,7 +6,7 @@ Reference : https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
 Tutorial : Configuring Serilog in ASP.NET Core 2.2 web API
 
 Reference : https://medium.com/@matthew.bajorek/configuring-serilog-in-asp-net-core-2-2-web-api-5e0f4d89749c
-Additional packages installed :-
-Serilog
-Serilog.Sinks.Debug
-Serilog.Sinks.Loggly
+<b>Additional packages installed :-</b>
+<br/>Serilog
+<br/>Serilog.Sinks.Debug
+<br/>Serilog.Sinks.Loggly
