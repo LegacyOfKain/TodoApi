@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TodoApi.Models;
+using Serilog;
 
 namespace TodoApi.Controllers
 {
@@ -16,6 +17,10 @@ namespace TodoApi.Controllers
         public TodoController(TodoContext context)
         {
             _context = context;
+
+            Log.Debug("You should click the clap button if you found this post useful!");
+            Log.Information("You can clap up to 50 times per post!");
+            Log.Error("You forgot to follow me for more programming made simple articles!");
 
             if (_context.TodoItems.Count() == 0)
             {
